@@ -10,7 +10,7 @@ def get_json_news(coin: str):
         "from": f"{date.today() - timedelta(days=7)}",
         "to": f"{date.today()}",
         "sortBy": "publishedAt",
-        "apiKey": "84ef5e832ed0476094f149843aac48af"
+        "apiKey": ""
     }
 
     response = get(url, params=params)
