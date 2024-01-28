@@ -6,7 +6,7 @@ from langchain_core.tools import tool
 from requests import get
 import ast
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 from langchain.tools import DuckDuckGoSearchRun
 search_tool = DuckDuckGoSearchRun()
